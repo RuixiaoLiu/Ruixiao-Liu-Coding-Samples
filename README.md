@@ -1,2 +1,6 @@
 # Ruixiao-Liu-Coding-Samples
-Previous coding assessments in my undergraduate studies in Python and C++
+This repository presents the two coding samples in Python and C/C++, which I submitted as assessed works in my undergraduate courses.
+
+1, The Python project that implemented the mean-shift clustering algorithm to classify the geochemical data according to their similarities. This is the script I submitted as the final project for the "Programming for Geoscientists" course, which achieved a mark of 39 out of 40. "Mini Project Clustering Method.py" is the main function, which is thoroughly commented regarding the functionalities of different code sections. To use the code, the main function needs to read the dataset called "cluster_data.csv".
+
+2, The C++ project in which I implement the gradient-descend and Newton-Raphson methods for optimization. This is the final project of the "Advanced Programming" course taught by Prof Stephen Neethling, which achieved a mark of 80%. The main function is the "main_func.cpp", with a series of header files (.h) for different data classes used in the main function. The main function reads input from "input.txt", which lists the "step size", "Hessian tolerance", "convergence tolerance", and "max number of iterations", respectively. The code is also commented thoroughly. This project achieved a mark of 80%.
