@@ -10,17 +10,16 @@ using namespace std;
 A quick manual
 
 Before using the programme, the user needs to have the input.txt file stored in the same folder as the programme. There are 4
-parameters in the file separaeted by spaces. From left to right: step size for derivative computation, tolerence of the determinant
-of hessian to be ill-conditioned, tolerence of the residual step size (convergence), and the maximum number of iteration.
+parameters in the file separated by spaces. From left to right: step size for derivative computation, tolerance of the determinant
+of hessian to be ill-conditioned, tolerence of the residual step size (convergence), and the maximum number of iterations.
 
-The user is asked to select from the three pre-set equations to minimize, and enter the x and y value of the initial guess, the
-optimization method, and the number of iteration before each recording of data. After entering these information, the programme will
+The user is asked to select from the three pre-set equations to minimize, and enter the x and y values of the initial guess, the
+optimization method, and the number of iterations before each recording of data. After entering these information, the programme will
 run and return the result. After recording the data in the result.txt file, it will delete the history recursively
 
-Although there is no repeating of input to avoid invalid input, the programme will immediately terminates ones it detects an invalid
-input from the user. A warning of termination of the programme will also show on the result.txt file to record the incidence.
+Although there is no repeating of input to avoid invalid input, the programme will immediately terminate ones it detects an invalid
+input from the user. A warning of termination of the programme will also show up on the result.txt file to record the incident.
 
-please refer to the documentation for more elaborate descriptions of the code
 
 */
 
